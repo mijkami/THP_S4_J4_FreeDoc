@@ -1,24 +1,27 @@
-# README
+<pre>
+______               ____  ___     
+| ___ \             | |  \/  |     
+| |_/ /___  __ _  __| | .  . | ___ 
+|    // _ \/ _` |/ _` | |\/| |/ _ \
+| |\ \  __/ (_| | (_| | |  | |  __/
+\_| \_\___|\__,_|\__,_\_|  |_/\___|
+                                   
+</pre>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Projet : FreeDoc DataBase work on rails.
 
-Things you may want to cover:
 
-* Ruby version
+## Please follow these steps:
 
-* System dependencies
+    $ Bundle install
+    $ rails db:migrate
+    $ rails c (ex: tp Pin.all or tp Comment.all)
+    	Bonus :
+    There's a decent [rails console command](https://stackoverflow.com/questions/2098131/rails-how-to-list-database-tables-objects-using-the-rails-console) to roughly return a list of models/tables
+    $ Rails.application.eager_load! 
+    $ ActiveRecord::Base.descendants
 
-* Configuration
+## Check out these specific folders/files :
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    ./db/migrate for the migrations
+    ./app/model for the models
