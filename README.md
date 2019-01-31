@@ -22,7 +22,7 @@ There's a decent [rails console command](https://stackoverflow.com/questions/209
     $ Rails.application.eager_load! 
     $ ActiveRecord::Base.descendants
 
-## Check out these specific folders/files :
+## Make sure to check out these specific folders/files :
 
     ./db/migrate for the migrations
     ./app/model for the models
